@@ -33,28 +33,6 @@ REDIS_DB=0                      # Banco de dados Redis a ser usado
 SERVER_PORT=8080                # Porta do servidor HTTP
 ```
 
-## Estrutura do Projeto
-
-```
-rate-limiter/
-├── config/
-│   └── config.go              # Configurações da aplicação
-├── limiter/
-│   └── limiter.go             # Lógica do rate limiter
-├── middleware/
-│   └── middleware.go          # Middleware HTTP
-├── storage/
-│   ├── storage.go             # Interface de armazenamento
-│   └── redis.go               # Implementação Redis
-├── .env                       # Arquivo de configuração
-├── docker-compose.yml         # Configuração Docker
-├── Dockerfile                 # Dockerfile
-├── go.mod                     # Dependências Go
-├── go.sum                     # Checksums das dependências
-├── main.go                    # Ponto de entrada da aplicação
-└── README.md                  # Documentação
-```
-
 ## Como Executar
 
 ### Com Docker (Recomendado)
